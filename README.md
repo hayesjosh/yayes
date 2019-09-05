@@ -1,7 +1,7 @@
 # Yayes Data Patching
 
 ### Overview:
-Yayes patching was designed to repair erroneous entries in data streams while maintaining accuracy of overall trends. In situations where users expect that missing data or data input errors might cause sudden drops in a variable values followed by immediate returns to correct variable values, yayes can be utilized. This method was inspired by the logic behind max-pooling insofar as high values of data often contain more meaningful information and that lower values of data may more often be discarded without losing relevant information. 
+Yayes patching was designed to repair erroneous entries in data streams while maintaining accuracy of overall trends. The yayes package is most powerful in situations where users see sudden, temporary drops in variables' values that then return to correct variable values (i.e. discrepancies in variable values that may be caused by missing data or data input errors). This method was inspired by the logic behind max-pooling insofar as high values of data often contain more meaningful information and that lower values of data may more often be discarded without losing relevant information. 
 
 Yayes is not intended to resolve all data errors and should only be applied intentionally to those specific contexts where it defensibly improves subsequent analyses. 
 
