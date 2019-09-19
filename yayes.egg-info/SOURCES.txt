@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+setup.py
+yayes/__init__.py
+yayes.egg-info/PKG-INFO
+yayes.egg-info/SOURCES.txt
+yayes.egg-info/dependency_links.txt
+yayes.egg-info/requires.txt
+yayes.egg-info/top_level.txt
+yayes.egg-info/zip-safe

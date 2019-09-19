@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: yayes
+Version: 1.0
+Summary: Repair erroneous entries in data streams while maintaining accuracy of overall trends.
+Home-page: https://github.com/hayesjosh/yayes
+Author: Greg Yannett & Josh Hayes
+Author-email: gsyann@berkeley.edu, hayesjosh@alumni.stanford.edu
+License: MIT
+Description: UNKNOWN
+Keywords: yayes smoothing data error fill patching trend Greg Yannett Josh Hayes
+Platform: UNKNOWN
+Classifier: Development Status :: 4-Beta
+Classifier: Programming Language :: Python

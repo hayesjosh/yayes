@@ -7,9 +7,10 @@ setup(name='yayes',
       author='Greg Yannett & Josh Hayes',
       author_email='gsyann@berkeley.edu, hayesjosh@alumni.stanford.edu',
       license='MIT',
-      packages='yayes',
-      zip_safe=False,
+      packages=['yayes'],
       install_requires=['numpy','pandas'],
       classifiers=['Development Status :: 4-Beta',
                    'Programming Language :: Python'],
-      keywords='yayes smoothing data error fill patching trend Greg Yannett Josh Hayes')
+      keywords='yayes smoothing data error fill patching trend Greg Yannett Josh Hayes',
+      include_package_data=True,
+      zip_safe=True)
