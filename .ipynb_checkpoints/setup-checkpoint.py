@@ -1,8 +1,8 @@
 from setuptools import setup
     
 setup(name='yayes',
-      version='1.0',
-      description='Repair erroneous entries in data streams while maintaining accuracy of overall trends.',
+      version='1.0.1',
+      Description='Repair erroneous entries in data streams while maintaining accuracy of overall trends.',
       url='https://github.com/hayesjosh/yayes',
       author='Greg Yannett & Josh Hayes',
       author_email='gsyann@berkeley.edu, hayesjosh@alumni.stanford.edu',
