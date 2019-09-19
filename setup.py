@@ -1,11 +1,7 @@
 from setuptools import setup
-
-def readme():
-    with open('README.rst') as f:
-        return f.read()
     
 setup(name='yayes',
-      version='0.1',
+      version='1.0',
       description='Repair erroneous entries in data streams while maintaining accuracy of overall trends.',
       url='https://github.com/hayesjosh/yayes',
       author='Greg Yannett & Josh Hayes',
