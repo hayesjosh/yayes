@@ -12,5 +12,4 @@ setup(name='yayes',
       install_requires=['numpy','pandas'],
       classifiers=['Development Status :: 4-Beta',
                    'Programming Language :: Python'],
-      keywords='yayes smoothing data error fill patching trend Greg Yannett Josh Hayes',
-      include_package_data=True)
+      keywords='yayes smoothing data error fill patching trend Greg Yannett Josh Hayes')
