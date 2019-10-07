@@ -6,7 +6,7 @@ with open(path.join(this_directory, 'README-pypi.md'), encoding='utf-8') as f:
     long_description = f.read()
     
 setup(name='yayes',
-      version='1.0.5',
+      version='1.0.6',
       description='Repair erroneous entries in data streams while maintaining accuracy of overall trends.',
       url='https://github.com/hayesjosh/yayes',
       author='Greg Yannett & Josh Hayes',
