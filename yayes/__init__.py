@@ -53,11 +53,11 @@ def yayes(x, continue_walk_thresh = .15, max_walk_range=None, final_entry_lift =
                 fill_value = x[i+1]
                 increase = (x[j+1] - x[i+1]) / (j - i)
                 
-                k, x = i + 2, 1
+                k, c = i + 2, 1
                 
                 while k <= j:
-                    x[k] = fill_value + (increase * x)
-                    k,x = k+1, x+1
+                    x[k] = fill_value + (increase * c)
+                    k,c = k+1, c+1
                     
                 differences = np.diff(x)
 
